@@ -1,4 +1,4 @@
-
+ 
 # 🏗️ Gestion des Bandes de Ciment
 
 ## 📌 Projektbeschreibung
@@ -11,19 +11,19 @@ Es wurde im Rahmen eines **Stage-Projekts** entwickelt und dient zur Digitalisie
 ## 👥 Benutzerrollen
 Das System basiert auf einem Rollen- und Berechtigungssystem:
 
-- **Admin** → Vollzugriff auf das gesamte System
-- **Controller** → Verwaltung von Daten und Prozessen
-- **Chef** → Überwachung und Kontrolle der Aktivitäten
+- **Admin** → Vollzugriff auf das gesamte System  
+- **Controller** → Verwaltung von Daten und Prozessen  
+- **Chef** → Überwachung und Kontrolle der Aktivitäten  
 
-Jede Rolle hat spezifische Permissions.
+Jede Rolle besitzt spezifische Berechtigungen (Permissions).
 
 ---
 
 ## ⚙️ Hauptfunktionen
 
 ### 📊 Dashboard
-- Übersicht über alle wichtigen Daten
-- Statistiken und Visualisierungen (Charts)
+- Übersicht aller wichtigen Daten
+- Statistiken und Charts
 
 ### 🏢 Administration
 - Benutzer- und Systemverwaltung
@@ -31,7 +31,7 @@ Jede Rolle hat spezifische Permissions.
 
 ### 🧾 Rechnungen (Facture)
 - Erstellung und Verwaltung von Rechnungen
-- Übersicht über finanzielle Transaktionen
+- Übersicht der finanziellen Transaktionen
 
 ### 💰 Verkaufsverwaltung
 - Verwaltung aller Verkäufe
@@ -55,7 +55,7 @@ Jede Rolle hat spezifische Permissions.
 ---
 
 ## 📈 Besondere Features
-- 📊 Charts für Datenanalyse
+- 📊 Datenanalyse mit Charts
 - 🔍 Filter-System für schnelle Suche
 - 📁 Strukturierte Datenverwaltung
 - ⚡ Schnelle Navigation
@@ -74,68 +74,68 @@ Jede Rolle hat spezifische Permissions.
 
 ## 📂 Projektstruktur
 
-```
-app/              → Backend Logik (Controller, Models)
-bootstrap/        → Laravel Bootstrap
-config/           → Konfiguration
-database/         → Migrationen & Seeder
-public/           → Entry Point (index.php)
-resources/        → Frontend Views
-routes/           → Web Routes
-storage/          → Dateien & Cache
-tests/            → Tests
-
+```txt id="cementstructurefinal"
+app/            → Backend Logik (Controller, Models)
+bootstrap/      → Laravel Bootstrap
+config/         → Konfiguration
+database/       → Migrationen & Seeder
+public/         → Entry Point (index.php)
+resources/      → Frontend Views
+routes/         → Web Routes
+storage/        → Dateien & Cache
+tests/          → Tests
+``` id="structfinal2"
 
 ---
 
 ## 🚀 Installation & Setup
 
-### 📥 1. Repository klonen
-```bash id="clonecement"
+### 📥 Repository klonen
+```bash id="clonefinal"
 git clone https://github.com/herrksissoumarouane-glitch/Gestion-des-band-des-ciment-.git
 cd Gestion-des-band-des-ciment-
 ````
 
 ---
 
-### 📦 2. Abhängigkeiten installieren
+### 📦 Abhängigkeiten installieren
 
-```bash id="installcement"
+```bash id="installfinal"
 composer install
 npm install
 ```
 
 ---
 
-### ⚙️ 3. Umgebung konfigurieren
+### ⚙️ Umgebung konfigurieren
 
-* `.env` Datei erstellen (oder `.env.example` kopieren)
-* Datenbank konfigurieren (MySQL)
-* APP_KEY generieren:
+* `.env` Datei erstellen oder kopieren von `.env.example`
+* Datenbank (MySQL) konfigurieren
+* Application Key generieren:
 
-```bash id="keycement"
+```bash id="keyfinal"
 php artisan key:generate
 ```
 
 ---
 
-### 🗄️ 4. Datenbank Migrationen
+### 🗄️ Datenbank Migrationen
 
-```bash id="migratecement"
+```bash id="migratefinal"
 php artisan migrate
 ```
 
-(Optional: Seeder falls vorhanden)
+(Optional)
 
-```bash
+```bash id="seedfinal"
 php artisan db:seed
 ```
 
 ---
 
-### ▶️ 5. Projekt starten
+### ▶️ Projekt starten
 
-```bash id="servecement"
+```bash id="servefinal"
 php artisan serve
 npm run dev
 ```
@@ -153,3 +153,5 @@ Das Ziel dieses Projekts ist die Entwicklung eines realistischen Management-Syst
 Projekt erstellt von: herrksissoumarouane-glitch
 
 ```
+
+---
