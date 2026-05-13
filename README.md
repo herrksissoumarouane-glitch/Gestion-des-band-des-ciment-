@@ -150,7 +150,7 @@ Das Ziel dieses Projekts ist die Entwicklung eines realistischen Management-Syst
 
 ## 👨‍💻 Entwickler
 
-Projekt erstellt von: herrksissoumarouane-glitch
+Projekt erstellt von: Marouane
 
 ```
 
